@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+    --font-primary: "Bebas Neue", serif;
+    --font-secondary: "Source Sans 3", serif;
+    
+    --color-background: #F5F4F2;
+    --color-primary: #5F3220;
+    --color-secondary: #EE8542;
+}
