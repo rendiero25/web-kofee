@@ -2,7 +2,7 @@ import { TiThMenu } from "react-icons/ti";
 
 function Header({ linkNav, logoWeb, handleShowMenu }) {
     return(
-        <header className="relative px-8 py-4">
+        <header className="relative px-8 py-4 w-full">
             <div className="relative flex flex-col justify-center items-center">
                 <div className="hidden xl:flex flex-row justify-between items-center w-full">
                     <h3>Tired? have a cup of coffee.</h3>
