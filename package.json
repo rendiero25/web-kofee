@@ -1,7 +1,7 @@
 {
   "homepage": "https://github.com/rendiero25/web-kofee.git",
   "name": "web-kofee",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
