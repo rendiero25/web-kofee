@@ -9,8 +9,8 @@ import Coffee from '../../src/assets/images/coffee-selection.png';
 
 function Intro() {
     return(
-        <section className='py-10 xl:px-8 xl:mt-[12rem] flex flex-col gap-18'>
-            <div className='flex flex-col xl:flex-row justify-between items-center gap-12 px-8 xl:max-w-5xl'>
+        <section id='aboutus' className='py-10 xl:mt-[12rem] flex flex-col justify-center items-center gap-18 xl:gap-34'>
+            <div className='flex flex-col xl:flex-row justify-center items-center px-8 gap-12 xl:max-w-5xl'>
                 <div className='flex flex-col justify-center items-center gap-4'>
                     <div className='size-18'>
                         <img src={IconCup} alt="icon-cup" className='h-full w-full'/>
@@ -48,12 +48,12 @@ function Intro() {
                     <div className='flex flex-col justify-center items-center gap-2'>
                         <h3 className='font-primary text-primary text-4xl'>Friendly Service</h3>
                         <p className='font-secondary font-normal text-primary text-xl text-center sm:max-w-md'>
-                            Dictumst ellentesque ut sem purus pulvinar feugiat orci partu rient.</p>
+                            Dictumst ellentesque ut sem purus pulvinar feugiat orci partu rient purus pulvinar.</p>
                     </div>
                 </div>
             </div>
             
-            <div className='flex flex-col xl:flex-row w-full justify-between items-center gap-12'>
+            <div className='flex flex-col xl:flex-row w-full justify-between items-center gap-12 xl:gap-4'>
                 <div className='flex flex-col justify-center items-center gap-4'>
                     <div className=''>
                         <img src={Pastries} alt="pastries-image" className='w-full h-full object-cover' />
